@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Raspberry Pi Comparison</title>
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif; /* Better than serif for this page */
+      }
+      h1 {
+        margin-left: 5px; /* Line-up with left edge of first column */
+      }
+      .column {
+        width: 330px; /* Specifying width helps 'float' to work */
+        float: left; /* Puts columns side-by-side */
+        margin: 5px; /* Gap between columns */
+        background-color: silver; /* Clearly shows the edges of the columns */
+      }
+      img {
+        display: block; /* Converts inline to block element so img can be centered */
+        margin: 5px auto; /* 5px above & below, centered within column */
+      }
+      table {
+        margin: 5px auto; /* 5px above & below, centered within column */
+        border-spacing: 0px; /* Removes gaps between cells */
+      }
+      table .even {
+        background-color: lightgray; /* Table rows given alternating colors */
+      }
+      th, td {
+        font-size: 92%; /* Table text needs to fit on a single line */
+        padding: 4px; /* A little more breathing space inside table cells */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Raspberry Pi Comparison</h1>
+    <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Raspberry-Pi-Zero-FL.jpg/320px-Raspberry-Pi-Zero-FL.jpg" alt="320px-Raspberry-Pi-Zero" />
+      <table>
+        <tr>
+          <th scope="row">Version:</th> <!-- scope="row" = Horizontal heading -->
+          <td>Raspberry Pi Zero W</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">Release Date:</th>
+          <td>28 February 2017</td>
+        </tr>
+        <tr>
+          <th scope="row">Instruction Set:</th>
+          <td>ARMv6 Z</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">System-on-Chip:</th>
+          <td>Broadcom BCM2835</td>
+        </tr>
+        <tr>
+          <th scope="row">CPU:</th>
+          <td>1 x ARM1176JZF-S, 1 GHz</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">Memory:</th>
+          <td>512MB (shared with GPU)</td>
+        </tr>
+      </table>
+    </div> <!-- End of first column -->
+    <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Raspberry-Pi-2-Bare-FL.jpg/320px-Raspberry-Pi-2-Bare-FL.jpg" alt="320px-Raspberry-Pi-2B" />
+      <table>
+        <tr>
+          <th scope="row">Version:</th>
+          <td>Raspberry Pi 2 Model B v1.2</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">Release Date:</th>
+          <td>October 2016</td>
+        </tr>
+        <tr>
+          <th scope="row">Instruction Set:</th>
+          <td>ARMv8-A</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">System-on-Chip:</th>
+          <td>Broadcom BCM2837</td>
+        </tr>
+        <tr>
+          <th scope="row">CPU:</th>
+          <td>4 x Cortex-A53, 900 MHz</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">Memory:</th>
+          <td>1GB (shared with GPU)</td>
+        </tr>
+      </table>
+    </div> <!-- End of second column -->
+    <div class="column">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Raspberry_Pi_3_B%2B_%2839906369025%29.png/320px-Raspberry_Pi_3_B%2B_%2839906369025%29.png" alt="320px-Raspberry-Pi-3B+" />
+      <table>
+        <tr>
+          <th scope="row">Version:</th>
+          <td>Raspberry Pi 3 Model B+</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">Release Date:</th>
+          <td>14 March 2018</td>
+        </tr>
+        <tr>
+          <th scope="row">Instruction Set:</th>
+          <td>ARMv8-A</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">System-on-Chip:</th>
+          <td>Broadcom BCM2837B0</td>
+        </tr>
+        <tr>
+          <th scope="row">CPU:</th>
+          <td>4 x Cortex-A53, 1.4 GHz</td>
+        </tr>
+        <tr class="even">
+          <th scope="row">Memory:</th>
+          <td>1GB (shared with GPU)</td>
+        </tr>
+      </table>
+    </div> <!-- End of third column -->
+  </body>
+</html>
